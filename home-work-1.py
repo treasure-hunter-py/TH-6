@@ -33,6 +33,9 @@ def lumus_maxima(x):
         for t in range(4):  
             print(auto_light[2],people_light[0])
             time.sleep(1)
+        for t in range(2):
+            print(auto_light[1],people_light[0])
+            time.sleep(1)
         temp += 1
         if temp == x:
             break
